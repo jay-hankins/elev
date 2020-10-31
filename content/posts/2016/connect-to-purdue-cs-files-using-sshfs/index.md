@@ -27,13 +27,16 @@ I assume you already have [Brew][] and [Homebrew Cask][] installed on your Mac.
 1. Run the following command to mount the directory to your local machine:
 
    ```
-   sshfs <username>@data.cs.purdue.edu:/homes/<username>/ ./desired_mountpoint -o auto_cache,reconnect,defer_permissions,noappledouble
+   sshfs <username>@data.cs.purdue.edu:/homes/<username>/ \
+   ./desired_mountpoint \
+   -o auto_cache,reconnect,defer_permissions,noappledouble
    ```
 
    For example:
 
    ```
-   sshfs hankinsj@data.cs.purdue.edu:/homes/hankinsj/ ./purdue -o auto_cache,reconnect,defer_permissions,noappledouble
+   sshfs hankinsj@data.cs.purdue.edu:/homes/hankinsj/ \
+   ./purdue -o auto_cache,reconnect,defer_permissions,noappledouble
    ```
 
 2. Now change to the directory you mounted in. You should see the remote files in the directory, and you can interact with them just as if they were local files on your Mac.

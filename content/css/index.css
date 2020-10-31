@@ -38,15 +38,17 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  padding: 1rem;
   max-width: 50rem;
   margin: 0 auto;
+  padding: 1rem;
 }
 main :first-child {
   margin-top: 0;
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+  max-width: 50rem;
+  margin: 0 auto;
 }
 header:after {
   content: "";
@@ -136,6 +138,7 @@ pre {
   list-style: none;
   float: left;
   margin-left: 1em;
+  margin-top: 1.3rem;
 }
 .nav-item {
   display: inline-block;
@@ -227,4 +230,10 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+span.square {
+  display: inline-block;
+  background-color: orange;
+  padding: 0.3rem 0.3rem 0.1rem 0.2rem;
+  color: black;
 }
