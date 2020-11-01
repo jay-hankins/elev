@@ -3,5 +3,5 @@ command = "DEBUG=* eleventy"
 publish = "_site"
 
 [[redirects]]
-from = "/:year/:month/:date/:slug"
-to = "/blog/:year/:month/:date/:slug"
+from = "/:year/:slug"
+to = "/blog/:year/:slug"
