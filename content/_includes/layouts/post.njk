@@ -8,7 +8,7 @@ templateClass: tmpl-post
 
 <hr>
 <ul>
-  {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+  {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- if nextPost %}
     <li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a>
     </li>
