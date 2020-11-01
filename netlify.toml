@@ -5,3 +5,7 @@ publish = "_site"
 [[redirects]]
 from = "/:year/:slug"
 to = "/blog/:year/:slug"
+
+[[redirects]]
+from = "/fuck"
+to = "/contact"
