@@ -33,6 +33,7 @@
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
-    "@gerhobbelt/markdown-it-footnote": "^3.0.2-4"
+    "@gerhobbelt/markdown-it-footnote": "^3.0.2-4",
+    "jsbarcode": "^3.11.3"
   }
 }

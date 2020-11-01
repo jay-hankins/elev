@@ -2,6 +2,7 @@
 title: 'Privacy and Security Series, Part II: Multi-factor Authentication'
 date: '2019-05-26T08:50:00.007Z'
 layout: post
+tags: ['privacy-and-security-series']
 ---
 
 In the [last Privacy and Security Series

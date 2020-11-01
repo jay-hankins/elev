@@ -2,6 +2,7 @@
 title: 'Privacy and Security Series, Part I: Password Managers'
 date: '2019-02-11T07:50:00.007Z'
 layout: post
+tags: ['privacy-and-security-series']
 ---
 
 I've been wanting to write a blog series on personal internet security for a while now. There's never a bad time to talk about security, and I've got some interesting topics ranging from protecting your privacy to protecting your identity and your character. We might casually think of security breaches and leaks as happening only to large, faceless organizations, but that's simply not true. There are steps you can and should take to secure your privacy. The first and most important step is to get a password manager. Let's begin.
