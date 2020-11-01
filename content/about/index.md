@@ -5,6 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: About Me
   order: 3
+tag: post
 ---
 
 Hi, my name is Jay, and I know just enough about computers to be dangerous.
