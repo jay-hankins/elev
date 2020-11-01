@@ -5,10 +5,18 @@ eleventyNavigation:
   order: 1
 ---
 
-{% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+{% set maxPosts = collections.posts.length | min(4) %}
 
-{% set postslist = collections.posts | head(-3) %}
+<h2>Home</h2>
+<p>This is jhankins.dev. It used to be a Gatsby site and then the site broke from a minor package upgrade,
+and I am way too frustrated to debug it. Instead, I am rolling out this Eleventy site.
+I expect that you will find some parts are broken.</p>
+<br><br>
+
+<h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
+</h2>
+
+{% set postslist = collections.posts | head(-4) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 

@@ -1,9 +1,9 @@
 {
   "title": "Jay's Blog",
   "url": "https://jhankins.dev/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "Jay is a passionate technologist who believes in bringing people and the power of technology together.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Jay is a passionate technologist who believes in bringing people and the power of technology together.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://jhankins.dev/"

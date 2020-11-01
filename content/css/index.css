@@ -241,3 +241,8 @@ div.square {
   font-size: 1em; /* 16px /16 */
   font-weight: bold;
 }
+footer {
+  max-width: 50rem;
+  border-top: 0.05rem solid var(--darkgray);
+  margin: 6rem auto;
+}
