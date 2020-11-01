@@ -231,9 +231,13 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
-span.square {
-  display: inline-block;
+div.square {
   background-color: orange;
-  padding: 0.2rem 0.3rem 0.1rem 0.2rem;
+  padding: 0.3rem 0.3rem 0.25rem 0.2rem;
   color: black;
+  letter-spacing: -0.075rem;
+  float: left;
+  margin: 1rem 0; /* 16px /16 */
+  font-size: 1em; /* 16px /16 */
+  font-weight: bold;
 }
