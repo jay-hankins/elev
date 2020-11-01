@@ -71,8 +71,9 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("content/img");
-  eleventyConfig.addPassthroughCopy("content/css");
   eleventyConfig.addPassthroughCopy("content/favicon.png");
+  eleventyConfig.addPassthroughCopy("content/css");
+  eleventyConfig.addPassthroughCopy("content/_redirects");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
