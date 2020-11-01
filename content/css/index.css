@@ -237,7 +237,7 @@ div.square {
   color: black;
   letter-spacing: -0.075rem;
   float: left;
-  margin: 1rem 0; /* 16px /16 */
+  margin: 1rem 0 0 1rem; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
   font-weight: bold;
 }
