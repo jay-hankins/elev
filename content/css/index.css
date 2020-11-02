@@ -247,4 +247,8 @@ footer {
   border-top: 0.05rem solid var(--darkgray);
   margin: 6rem auto 2rem;
   padding: 1rem 1rem 0 1rem;
+  font-size: smaller;
+}
+footer p {
+  max-width: unset;
 }
