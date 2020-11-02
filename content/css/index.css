@@ -47,9 +47,8 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
   max-width: 50rem;
-  margin: 0 auto 2rem;
+  margin: 0 auto 3rem;
 }
 header:after {
   content: "";
@@ -246,5 +245,6 @@ div.square {
 footer {
   max-width: 50rem;
   border-top: 0.05rem solid var(--darkgray);
-  margin: 6rem auto;
+  margin: 6rem auto 2rem;
+  padding: 1rem 1rem 0 1rem;
 }
