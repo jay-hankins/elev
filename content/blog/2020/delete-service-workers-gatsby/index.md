@@ -3,6 +3,7 @@ title: Delete Service Workers to Leave Gatsby
 date:  '20201102'
 layout: post
 tags: [javascript, gatsby, eleventy, service-workers]
+permalink: "blog/2020/{{ title | slug }}/index.html"
 ---
 
 I've switched away from Gatsby to Eleventy. One thing my Gatsby site had done (some of the "magic") was generate and register a Service Worker for offline/caching reasons.
