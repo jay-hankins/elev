@@ -2,7 +2,7 @@
 title: 'Privacy and Security Series, Part III: Going Farther with MFA and Audits'
 date: '2019-09-03T08:00:00.007Z'
 layout: post
-tags: [security, technology, 'privacy-and-security-series']
+tags: [security, 'privacy-and-security-series']
 ---
 
 In the last Privacy and Security Series [post](../privacy-and-security-series-part-ii-multi-factor-auth/), we talked about the

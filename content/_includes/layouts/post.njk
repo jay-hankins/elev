@@ -7,6 +7,12 @@ templateClass: tmpl-post
 {{ content | safe }}
 
 <hr>
+{% for tag in tags %}
+  {%- if collections.tagList.indexOf(tag) != -1 -%}
+    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  {%- endif -%}
+{% endfor %}
 <ul>
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- if nextPost %}
