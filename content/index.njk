@@ -24,7 +24,7 @@ I expect that you will find some parts are broken, but so far, I'm impressed at 
 lack of blackbox magic going on behind the scenes.</p>
 <br><br>
 
-<h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
+<h2>Latest {% if maxPosts == 1 %}Post{% else %}Posts{% endif %}
 </h2>
 
 {% set postslist = collections.posts | head(-4) %}

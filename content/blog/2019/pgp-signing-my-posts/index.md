@@ -2,6 +2,10 @@
 title: 'PGP Signing My Posts'
 date: '2019-02-18T20:39:08Z'
 layout: post
+tags:
+  - security
+  - encryption
+  - PGP
 ---
 
 I purchased some Yubikeys a few weeks back, mostly for the convenience factor of

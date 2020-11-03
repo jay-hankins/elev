@@ -4,7 +4,6 @@ date: '2016-11-25T22:40:32.169Z'
 layout: post
 tags:
   - security
-  -
 ---
 
 ![Enpass and LastPass logos](passvs.png)
