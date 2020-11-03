@@ -19,3 +19,6 @@ For posterity's sake, I will link a few articles about the tumultuous Trump pres
 - [Trump’s Attempt to Obscure the Reality of the Coronavirus Pandemic Is Getting Comical](https://www.newyorker.com/news/our-columnists/trumps-attempt-to-obscure-the-reality-of-the-pandemic-is-getting-comical)
 
 I continue to press on through the anxiety. I hope you are doing so too.
+
+update 2:26 PM EST: Fucking doomsday headline
+![](2020-11-03-14-26-30.png)
