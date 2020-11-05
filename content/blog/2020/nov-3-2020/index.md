@@ -22,3 +22,5 @@ I continue to press on through the anxiety. I hope you are doing so too.
 
 update 2:26 PM EST: Fucking doomsday headline
 ![](2020-11-03-14-26-30.png)
+
+update 4:31 PM EST: lol. via [@jwestcottphoto](https://twitter.com/jwestcottphoto/status/1323713898680385536)
