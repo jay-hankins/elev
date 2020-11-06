@@ -8,6 +8,8 @@ tags:
 
 <sub>(intentionally untitled, because what would I call it?)</sub>
 
+![i voted](https://source.unsplash.com/TJ6BM5VGdgI/1000x562.5)
+
 I'm 25 years old at the time of this U.S. election. I hope it's the most "exciting" election of my lifetime.
 
 By which I mean, I hope Americans have overwhelmingly voted for a change. I hope we voted so hard to defend immigrants, women, gay people, healthcare workers, laborers, children, Black people, and on and on.
