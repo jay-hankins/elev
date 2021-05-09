@@ -8,5 +8,11 @@ eleventyNavigation:
 
 <h1>Blog</h1>
 
+<p>Here's what topics I'm blogging about:</p>
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
+
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
