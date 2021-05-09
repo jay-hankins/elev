@@ -9,7 +9,6 @@ eleventyNavigation:
 
 Hi, my name is Jay, and I know just enough about computers to be dangerous.
 
-
 I’m a passionate technologist who believes in bringing people and the power of technology together. I’m currently a Site Reliability Engineer at Salesforce, where I work on public cloud operations and evangelize reliability best practices to our software delivery teams.
 
 Previously, I’ve worked at companies like Cisco and RSA Security, developing web apps, investigating malware, and taking down cyber fraud activity.

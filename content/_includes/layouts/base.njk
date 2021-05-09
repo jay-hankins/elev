@@ -13,17 +13,17 @@
   </head>
   <body>
     <header>
-
-      <a href="{{ '/' | url }}">
-        <div class="square">JH</div>
-      </a>
-
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
+        <a class="logo" href="{{ '/' | url }}">
+          JH
+        </a>
         {%- for entry in collections.all | eleventyNavigation %}
+          {% if page.url!="/" or entry.url != "/" %}
           <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
             <a href="{{ entry.url | url }}">{{ entry.title }}</a>
           </li>
+          {% endif %}
         {%- endfor %}
       </ul>
     </header>
@@ -36,7 +36,7 @@
       <div class="">
         <div class="">
           <div style="">
-            <p class="">© 2020 Jay Hankins.</p>
+            <p class="">&copy; 2021 Jay Hankins.</p>
           </div>
           <div style="">
             <p class="">Except where otherwise noted, content on this site is licensed under a&nbsp;<a href="http://creativecommons.org/licenses/by-sa/4.0/" class="Footer__Ffa-sc-1gi1jxo-2 heeoCV">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>

@@ -15,7 +15,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
   border-top: 2px orange solid;
@@ -139,6 +140,7 @@ pre {
   float: left;
   margin-left: 1em;
   margin-top: 1.3rem;
+  line-height: 1.4rem;
 }
 .nav-item {
   display: inline-block;
@@ -217,7 +219,8 @@ a[href].post-tag:visited {
 
 /* Direct Links / Markdown Headers */
 .direct-link {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   text-decoration: none;
   font-style: normal;
   margin-left: 0.1em;
@@ -251,4 +254,14 @@ footer {
 }
 footer p {
   max-width: unset;
+}
+
+.logo {
+  display: inline-block;
+  text-indent: -99999px;
+  width: 24px;
+  height: 24px;
+  background: url(/img/logo.svg);
+  background-size: 24px 24px;
+  margin-right: 1rem;
 }
