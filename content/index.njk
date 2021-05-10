@@ -12,7 +12,8 @@ eleventyNavigation:
       .then((registrations) => {
         for (let registration of registrations) {
           registration.unregister()
-        })}
+        }
+      }
 </script>
 
 {% set maxPosts = collections.posts.length | min(4) %}
