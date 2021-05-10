@@ -269,3 +269,11 @@ footer p {
 footer .small {
   font-size: smaller;
 }
+
+.mepic {
+  border-radius: 34% 66% 49% 51% / 30% 54% 46% 70%;
+}
+
+.h-card {
+  display: none;
+}
