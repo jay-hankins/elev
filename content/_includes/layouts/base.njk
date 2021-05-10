@@ -19,38 +19,29 @@
           JH
         </a>
         {%- for entry in collections.all | eleventyNavigation %}
-          {% if page.url!="/" or entry.url != "/" %}
-          <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
-            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-          </li>
+          {% if page.url != "/" or entry.url != "/" %}
+            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
+              <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+            </li>
           {% endif %}
         {%- endfor %}
       </ul>
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
       {{ content | safe }}
     </main>
 
     <footer>
-      <div class="">
-        <div class="">
-          <div style="">
-            <p class="">&copy; 2021 Jay Hankins.</p>
-          </div>
-          <div style="">
-            <p class="">Except where otherwise noted, content on this site is licensed under a&nbsp;<a href="http://creativecommons.org/licenses/by-sa/4.0/" class="Footer__Ffa-sc-1gi1jxo-2 heeoCV">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
-          </div>
-        </div>
-        <div class="">
-          <p class="">This site doesn't track you— I don't collect analytics. Want to share how you found my site, or give me feedback? <br>
-            <a class="Footer__StyledLink-sc-1gi1jxo-3 eFmebR" href="/contact"> I'd love to hear from you.</a>
-          </p>
-        </div>
-      </div>
+      <p class="">&copy; 2021 Jay Hankins.</p>
+      <a href="https://xn--sr8hvo.ws/%F0%9F%8C%91%F0%9F%98%95%F0%9F%8E%93/previous">←</a>
+  An IndieWeb Webring 🕸💍
+  <a href="https://xn--sr8hvo.ws/%F0%9F%8C%91%F0%9F%98%95%F0%9F%8E%93/next">→</a>
+      <p class="small">Except where otherwise noted, content on this site is licensed under a&nbsp;<a href="http://creativecommons.org/licenses/by-sa/4.0/" class="Footer__Ffa-sc-1gi1jxo-2 heeoCV">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+      <p class="small">This site doesn't track you— I don't collect analytics. Want to share how you found my site, or give me feedback? <br>
+        <a class="Footer__StyledLink-sc-1gi1jxo-3 eFmebR" href="/contact"> I'd love to hear from you.</a>
+      </p>
     </footer>
-  </footer>
-
-  <!-- Current page: {{ page.url | url }} -->
-</body>
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
 </html>

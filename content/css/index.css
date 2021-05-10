@@ -265,3 +265,7 @@ footer p {
   background-size: 24px 24px;
   margin-right: 1rem;
 }
+
+footer .small {
+  font-size: smaller;
+}
