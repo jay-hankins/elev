@@ -105,6 +105,11 @@ module.exports = function (eleventyConfig) {
     ghostMode: false,
   });
 
+  eleventyConfig.addShortcode(
+    "current_year",
+    () => `${new Date().getFullYear()}`
+  );
+
   return {
     templateFormats: [
       "md",
