@@ -1,5 +1,6 @@
 {
   "tags": [
     "journal"
-  ]
+  ],
+  "layout": "layouts/journal-post"
 }
