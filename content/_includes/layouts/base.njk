@@ -12,27 +12,35 @@
     <link rel="icon" href="/favicon.png">
   </head>
   <body>
-    <header>
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-        <a class="logo" href="{{ '/' | url }}">
-          JH
-        </a>
-        {%- for entry in collections.all | eleventyNavigation %}
-          {% if page.url != "/" or entry.url != "/" %}
-            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
-              <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+    <div class="wrapper">
+      <header class="page-header">
+        <nav>
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <ul class="nav">
+            <li class="push">
+              <a class="logo" href="{{ '/' | url }}">
+            JH
+          </a>
             </li>
-          {% endif %}
-        {%- endfor %}
-      </ul>
+            {%- for entry in collections.all | eleventyNavigation %}
+              {# {% if page.url != "/" or entry.url != "/" %} #}
+              <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
+                <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+              </li>
+              {# {% endif %} #}
+            {%- endfor %}
+          </li>
+
+        </ul>
+      </nav>
+
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
+    <main class="{% if templateClass %}{{ templateClass }}{% endif %} page-body">
       {{ content | safe }}
     </main>
 
-    <footer>
+    <footer class="page-footer">
       <p class="">&copy; 2014-<script>
           document.write(new Date().getFullYear())
         </script>
@@ -45,6 +53,8 @@
         <a class="Footer__StyledLink-sc-1gi1jxo-3 eFmebR" href="/contact"> I'd love to hear from you.</a>
       </p>
     </footer>
-    <!-- Current page: {{ page.url | url }} -->
-  </body>
+  </div>
+
+  <!-- Current page: {{ page.url | url }} -->
+</body>
 </html>

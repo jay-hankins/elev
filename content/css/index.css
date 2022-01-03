@@ -20,6 +20,7 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
   border-top: 2px orange solid;
+  height: 100vh;
 }
 p:last-child {
   margin-bottom: 0;
@@ -41,7 +42,7 @@ a[href]:visited {
 }
 main {
   max-width: 50rem;
-  margin: 0 auto;
+  margin: 0;
   padding: 1rem;
 }
 main :first-child {
@@ -49,7 +50,7 @@ main :first-child {
 }
 header {
   max-width: 50rem;
-  margin: 0 auto 3rem;
+  margin: 0 0 3rem;
 }
 header:after {
   content: "";
@@ -137,10 +138,11 @@ pre {
 .nav {
   padding: 0;
   list-style: none;
-  float: left;
+  /* float: left; */
   margin-left: 1em;
   margin-top: 1.3rem;
   line-height: 1.4rem;
+  display: flex;
 }
 .nav-item {
   display: inline-block;
@@ -152,6 +154,9 @@ pre {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
+}
+.push {
+  margin-right: auto;
 }
 
 /* Posts list */
@@ -248,7 +253,7 @@ div.square {
 footer {
   max-width: 50rem;
   border-top: 0.05rem solid var(--darkgray);
-  margin: 6rem auto 2rem;
+  margin: 6rem 0 2rem;
   padding: 1rem 1rem 0 1rem;
   font-size: smaller;
 }
@@ -276,4 +281,20 @@ footer .small {
 
 .h-card {
   display: none;
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.page-header,
+.page-footer {
+  flex-shrink: 0;
+}
+
+.page-body {
+  flex-grow: 1;
 }
