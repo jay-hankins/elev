@@ -14,30 +14,38 @@
   </head>
   <body>
     <header>
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-      <ul class="nav">
-        <a class="logo" href="{{ '/' | url }}">
-          JH
-        </a>
-        {%- for entry in collections.all | eleventyNavigation %}
-          {% if page.url != "/" or entry.url != "/" %}
-            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
-              <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-            </li>
-          {% endif %}
-        {%- endfor %}
-      </ul>
+      <nav>
+        {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+        <ul class="nav">
+          <li class="push">
+            <a class="logo" href="{{ '/' | url }}">
+            JH
+          </a>
+            {%- for entry in collections.all | eleventyNavigation %}
+              {% if page.url != "/" or entry.url != "/" %}
+                <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
+                  <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+                </li>
+              {% endif %}
+            {%- endfor %}
+          </li>
+
+        </ul>
+      </nav>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}" {% endif %}>
       {{ content | safe }}
     </main>
 
-    <footer>
-      <p class="">&copy; 2014-<script>
-          document.write(new Date().getFullYear())
-        </script>
- Jay Hankins.</p>
+    <footer class="page-footer">
+      <p class="">&copy; 2014 —
+      <span>
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          <noscript>{% current_year %}</noscript>
+        </span>Jay Hankins.</p>
       <a href="https://xn--sr8hvo.ws/%F0%9F%8C%91%F0%9F%98%95%F0%9F%8E%93/previous">←</a>
   An IndieWeb Webring 🕸💍
   <a href="https://xn--sr8hvo.ws/%F0%9F%8C%91%F0%9F%98%95%F0%9F%8E%93/next">→</a>
