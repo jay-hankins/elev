@@ -1,7 +1,7 @@
 ---
 title: 'My Development Mac Setup'
 description: Software tools that help me compute.
-date: '2016-08-14T22:40:32.169Z'
+date: "2016-08-14T22:40:32.169Z"
 layout: post
 tags:
   - macos

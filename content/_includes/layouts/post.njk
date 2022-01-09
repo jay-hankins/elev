@@ -2,9 +2,13 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
-
-{{ content | safe }}
+<div class="post-header">
+  <h1>{{ title }}</h1>
+  <time>{{ page.date | readableDate }}</time>
+</div>
+<article class="post">
+  {{ content | safe }}
+</article>
 
 {% for tag in tags %}
   {%- if collections.tagList.indexOf(tag) != -1 -%}

@@ -1,6 +1,6 @@
 ---
 title: '"I like VS Code. Should I Learn Vim?"'
-date: '2019-01-27T21:56:00.007Z'
+date: "2019-01-27T21:56:00.007Z"
 layout: post
 tags:
   - vscode

@@ -1,6 +1,6 @@
 ---
 title: 'Privacy and Security Series, Part I: Password Managers'
-date: '2019-02-11T07:50:00.007Z'
+date: "2019-02-11T07:50:00.007Z"
 layout: post
 tags: ['privacy-and-security-series', 'security']
 ---

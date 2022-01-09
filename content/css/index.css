@@ -16,7 +16,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   color: var(--darkgray);
   background-color: var(--white);
   border-top: 2px orange solid;
@@ -28,11 +28,11 @@ p:last-child {
 p,
 .tmpl-post li,
 img {
-  max-width: 40em; /* 600px /16 */
+  max-width: 52em; /* 600px /16 */
 }
 p,
 .tmpl-post li {
-  line-height: 1.45;
+  line-height: 1.7;
 }
 a[href] {
   color: var(--blue);
@@ -41,7 +41,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  max-width: 50rem;
+  max-width: 52rem;
   margin: 0;
   padding: 1rem;
 }
@@ -49,7 +49,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  max-width: 50rem;
+  max-width: 52rem;
   margin: 0 0 3rem;
 }
 header:after {
@@ -71,11 +71,11 @@ code {
     "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
     "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
     "Courier New", Courier, monospace;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 pre {
   font-size: 14px;
-  line-height: 1.375;
+  line-height: 1.5;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -225,7 +225,7 @@ a[href].post-tag:visited {
 /* Direct Links / Markdown Headers */
 .direct-link {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   text-decoration: none;
   font-style: normal;
   margin-left: 0.1em;
@@ -251,14 +251,15 @@ div.square {
   font-weight: bold;
 }
 footer {
-  max-width: 50rem;
-  border-top: 0.05rem solid var(--darkgray);
+  max-width: 52rem;
+  /* border-top: 0.05rem solid var(--darkgray); */
   margin: 6rem 0 2rem;
   padding: 1rem 1rem 0 1rem;
   font-size: smaller;
 }
 footer p {
   max-width: unset;
+  font-size: 1em;
 }
 
 .logo {
@@ -286,7 +287,7 @@ footer .small {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 50rem;
+  max-width: 52rem;
   margin: 0 auto;
 }
 
@@ -297,4 +298,26 @@ footer .small {
 
 .page-body {
   flex-grow: 1;
+}
+
+.post-header > h1 {
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.post-header > time {
+  font-size: 1.2rem;
+  color: #595959;
+}
+
+.post-header {
+  margin-bottom: 4em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+article.post {
+  margin-bottom: 10rem;
 }

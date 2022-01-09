@@ -1,6 +1,6 @@
 ---
 title: 'Why a Journal?'
-date: '20190910'
+date: "20190910"
 ---
 
 I quite like the idea of having a personal space on the internet. My own little corner of the www.

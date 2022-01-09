@@ -1,6 +1,6 @@
 ---
 title:  "Connect to Purdue CS Files Using SSHFS"
-date: '2016-08-29T22:40:32.169Z'
+date: "2016-08-29T22:40:32.169Z"
 description: Mount a remote directory using SSH.
 layout: 'post'
 ---

@@ -1,6 +1,6 @@
 ---
 title: Running noVNC on Kubernetes to Access a Machine on my LAN
-date:  '20200412'
+date: "20200412"
 emoji: ' '
 layout: post
 ---

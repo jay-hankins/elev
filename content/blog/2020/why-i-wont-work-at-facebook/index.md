@@ -1,6 +1,6 @@
 ---
 title: Why I Won't Work at Facebook
-date:  '2020-11-07T14:09:51Z'
+date: "2020-11-07T14:09:51Z"
 layout: post
 tags:
   - personal

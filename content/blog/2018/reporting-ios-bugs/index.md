@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reporting iOS Bugs
-date: '2018-02-04T22:40:32.169Z'
+date: "2018-02-04T22:40:32.169Z"
 description: How to use Apple Bug Reporter
 ---
 

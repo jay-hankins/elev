@@ -1,6 +1,6 @@
 ---
 title: 'Static Blogging with Gatsby on GitHub Pages'
-date: '2019-01-22T09:00:00.007Z'
+date: "2019-01-22T09:00:00.007Z"
 layout: post
 tags:
   - gatsby
@@ -100,7 +100,7 @@ in JS (yay!):
 
     # JS date format
 
-    date: '2016-08-14T22:40:32.168Z'
+    date: "2016-08-14T22:40:32.168Z"
 
 Basically, it's `Year-Month-Day` + `T` (for time) + `Hours:Mins:Seconds.Fraction` + `<timezone num>` + `Z`. (Pacific Daylight is -7Z. Eastern Standard is -5.)
 

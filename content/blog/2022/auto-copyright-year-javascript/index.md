@@ -1,6 +1,6 @@
 ---
 title: Automatic Copyright Year in JavaScript
-date: 2022-01-02T05:00:04Z
+date: "2022-01-02T05:00:04Z"
 layout: post
 tags:
   - webdev

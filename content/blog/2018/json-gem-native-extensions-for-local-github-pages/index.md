@@ -2,7 +2,7 @@
 layout: post
 title: "Solution: GitHub Pages Build Failure Due to Error Installing json (1.8.3)"
 description: Specify a workaround branch of the gem for Sierra and High Sierra
-date: '2018-01-29T22:40:32.169Z'
+date: "2018-01-29T22:40:32.169Z"
 tags:
   - jekyll
   - ruby

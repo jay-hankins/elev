@@ -1,9 +1,9 @@
 ---
 title: An Ode to My First Car
-date: '20190929'
+date: "20190929"
 ---
 
-I really, really loved my 2007 Acura TL. 
+I really, really loved my 2007 Acura TL.
 
 I’m surely not the only TL-lover. It was a highly popular car when it was introduced, and remained a popular choice for reliable used luxury cars.
 
@@ -21,7 +21,7 @@ Just, wow. And for a 16 1/2 year old. Maybe that was a little crazy of my parent
 
 I would always drive my friends places. Band practice. Steak and Shake. The movies. Prom. I drove my sister to school for a couple years. I had girlfriends in that car, I started relationships in that car and ended relationships in that car. I stayed out late in that car and got up early in that car. Got lost in that car, sometimes on accident and sometimes on purpose.
 
-Drove 11 hours to my first internship in that car. Drove 11 hours back. And again the next summer. Drove to therapy in that car. Drove to Purdue more times than I could count. I know the route like the back of my hand, and damn if I don’t miss that drive. 
+Drove 11 hours to my first internship in that car. Drove 11 hours back. And again the next summer. Drove to therapy in that car. Drove to Purdue more times than I could count. I know the route like the back of my hand, and damn if I don’t miss that drive.
 
 Living in SF now, I miss driving quite a bit.
 
@@ -29,7 +29,7 @@ I’m getting a little teary and it feels silly. But I lived a lot of my life in
 
 Oh, and I modded that car. I did most of the popular things that others on Acurazine do/did. I finished the grille in matte black, added some LED strip DRLs, LED switchbacks, and even a spoiler! The spoiler was absolutely awful to install and my dad is a saint for helping me install it (installing it for me). He helped me wire my lights to the rain wiper lead. This is an ode to my dad as much as it is to my car.
 
-Once, back when people still used Flickr to share “serious” photos, I uploaded some photos of my car. I think I took them with my Nokia Lumia 920 (lol). 
+Once, back when people still used Flickr to share “serious” photos, I uploaded some photos of my car. I think I took them with my Nokia Lumia 920 (lol).
 
 Well, a weird little blogging website about car insurance came and used one of the pictures. And the caption said “Credit: Jay Hankins”. So that was cool!
 
@@ -39,7 +39,7 @@ You know, this feels like one of those moments where you can’t say enough. And
 
 ***
 
-Long story long, I loved that Acura TL. I won’t have another car for a while, and I wonder if that makes this all a bit different. Most people will get a new car quite quickly. They move on, quickly. Me, I am hanging to the memories a bit. 
+Long story long, I loved that Acura TL. I won’t have another car for a while, and I wonder if that makes this all a bit different. Most people will get a new car quite quickly. They move on, quickly. Me, I am hanging to the memories a bit.
 
 And I’m not just hanging onto the heated leather seats, LED lights, and powerful engine. I’m hanging onto the moments of life I lived in that car. Wondering what moments are being lived by its new owner. I’m hanging onto the memories.
 

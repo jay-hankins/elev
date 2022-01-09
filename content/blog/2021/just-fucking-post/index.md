@@ -1,6 +1,6 @@
 ---
 title: Time to Just Post
-date:  '2021-12-29T01:43:28Z'
+date: "2021-12-29T01:43:28Z"
 layout: post
 tags:
   - writing

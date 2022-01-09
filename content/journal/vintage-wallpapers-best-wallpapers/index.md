@@ -1,6 +1,6 @@
 ---
 title: Vintage Wallpapers are the Best Wallpapers
-date: '20190915'
+date: "20190915"
 draft: true
 ---
 

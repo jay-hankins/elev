@@ -1,6 +1,6 @@
 ---
 title: DIY Marble Qi Charger
-date: '20190916'
+date: "20190916"
 draft: True
 ---
 

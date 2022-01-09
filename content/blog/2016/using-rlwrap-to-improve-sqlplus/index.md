@@ -1,6 +1,6 @@
 ---
 title:  "Using rlwrap to Improve sqlplus"
-date: '2016-09-06T22:40:32.169Z'
+date: "2016-09-06T22:40:32.169Z"
 description: Make sqlplus less frustrating.
 layout: post
 ---

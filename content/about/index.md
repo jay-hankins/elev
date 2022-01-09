@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 title: About Me
+date: "2022-01-09T15:13:53Z"
 templateClass: tmpl-post
 eleventyNavigation:
   key: About Me

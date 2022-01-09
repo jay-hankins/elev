@@ -1,6 +1,6 @@
 ---
 title: 'Privacy and Security Series, Part III: Going Farther with MFA and Audits'
-date: '2019-09-03T08:00:00.007Z'
+date: "2019-09-03T08:00:00.007Z"
 layout: post
 tags: [security, 'privacy-and-security-series']
 ---

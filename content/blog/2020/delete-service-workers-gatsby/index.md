@@ -1,6 +1,6 @@
 ---
 title: Delete Service Workers to Leave Gatsby
-date:  '20201102'
+date: "20201102"
 layout: post
 tags: [javascript, gatsby, eleventy, service-workers]
 permalink: "blog/2020/{{ title | slug }}/index.html"

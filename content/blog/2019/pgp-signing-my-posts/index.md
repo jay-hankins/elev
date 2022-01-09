@@ -1,6 +1,6 @@
 ---
 title: 'PGP Signing My Posts'
-date: '2019-02-18T20:39:08Z'
+date: "2019-02-18T20:39:08Z"
 layout: post
 tags:
   - security
