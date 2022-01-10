@@ -14,5 +14,8 @@ eleventyNavigation:
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {% endfor %}
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+{% for year, yearPosts in collections.postsByYear %}
+  {% set postslist = yearPosts %}
+  <h2>{{ year }}</h2>
+  {% include "postslist.njk" %}
+{% endfor %}
