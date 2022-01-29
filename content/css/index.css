@@ -21,6 +21,7 @@ body {
   background-color: var(--white);
   border-top: 2px orange solid;
   height: 100vh;
+  letter-spacing: -0.25pt;
 }
 p:last-child {
   margin-bottom: 0;
@@ -287,7 +288,7 @@ footer .small {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 52rem;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -315,9 +316,15 @@ footer .small {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 article.post {
   margin-bottom: 10rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 2em;
 }
