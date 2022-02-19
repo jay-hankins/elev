@@ -28,8 +28,9 @@ p:last-child {
 }
 p,
 .tmpl-post li,
-img {
-  max-width: 52em; /* 600px /16 */
+img,
+iframe {
+  max-width: 52rem; /* 600px /16 */
 }
 p,
 .tmpl-post li {
@@ -42,7 +43,7 @@ a[href]:visited {
   color: var(--navy);
 }
 main {
-  max-width: 52rem;
+  /* max-width: 52rem; */
   margin: 0;
   padding: 1rem;
 }
@@ -293,7 +294,7 @@ footer .small {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 50rem;
+  max-width: 52rem;
   margin: 0 auto;
 }
 
