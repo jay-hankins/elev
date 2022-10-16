@@ -1,9 +1,9 @@
 {
   "title": "Jay's Blog",
   "url": "https://jhankins.dev/",
-  "description": "Jay is a passionate technologist who believes in bringing people and the power of technology together.",
+  "description": "Jay Hankins is a software engineer and technology enthusiast. This is his website.",
   "feed": {
-    "subtitle": "Jay is a passionate technologist who believes in bringing people and the power of technology together.",
+    "subtitle": "Jay Hankins is a software engineer and technology enthusiast. This is his blog feed.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://jhankins.dev/"
