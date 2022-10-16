@@ -20,9 +20,7 @@
           {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
           <ul class="nav">
             <li class="push">
-              <a class="logo" href="{{ '/' | url }}">
-            JH
-          </a>
+              <a class="logo" href="{{ '/' | url }}">JH</a>
             </li>
             {%- for entry in collections.all | eleventyNavigation %}
               {# {% if page.url != "/" or entry.url != "/" %} #}
