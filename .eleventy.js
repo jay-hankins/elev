@@ -44,6 +44,10 @@ module.exports = function (eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
+  eleventyConfig.addFilter("findById", (array, id) => {
+    return array.find((i) => i.id === id)
+  })
+
   eleventyConfig.addCollection("tagList", function (collection) {
     let tagSet = new Set();
     collection.getAll().forEach(function (item) {

@@ -1,0 +1,38 @@
+---
+permalink: '/css/themes.css'
+eleventyExcludeFromCollections: true
+---
+
+{# from https://github.com/maxboeck/mxb/tree/master/src #}
+
+{%- macro colorscheme(colors) -%}
+    --color-bg: {{ colors.background }};
+    --color-bg-offset: {{ colors.backgroundOffset }};
+    --color-text: {{ colors.text }};
+    --color-link: {{ colors.link }};
+    --color-link-visited: {{ colors.linkVisited }};
+    --color-text-offset: {{ colors.textOffset }};
+    --color-border: {{ colors.border }};
+    --color-primary: {{ colors.primary }};
+    --color-primary-offset: {{ colors.primaryOffset }};
+    --color-secondary: {{ colors.secondary }};
+{%- endmacro -%}
+
+{%- set default = themes|findById('default') -%}
+{%- set dark = themes|findById('dark') -%}
+
+:root {
+  {{ colorscheme(default.colors) }}
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    {{ colorscheme(dark.colors) }}
+  }
+}
+
+{% for theme in themes %}
+[data-theme='{{ theme.id }}'] {
+    {{ colorscheme(theme.colors) }}
+}
+{% endfor %}

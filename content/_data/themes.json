@@ -1,0 +1,36 @@
+[
+  {
+      "id": "default",
+      "name": "Classic",
+      "colors": {
+          "primary": "orange",
+          "lightorange": "rgb(255, 225, 166)",
+          "link": "#082840",
+          "linkVisited": "#17050f",
+          "secondary": "#43a9a3",
+          "text": "#373a3c",
+          "border": "#eceeef",
+          "background": "#ffffff",
+          "primaryOffset": "#ff1447",
+          "textOffset": "#818a91",
+          "backgroundOffset": "#f7f7f9"
+      }
+  },
+  {
+      "id": "dark",
+      "name": "Dark",
+      "colors": {
+          "primary": "orange",
+          "lightorange": "rgb(255, 225, 166)",
+          "link": "orange",
+          "linkVisited": "#f7f7f9",
+          "secondary": "#43a9a3",
+          "text": "#ffffff",
+          "border": "#2d2d2d",
+          "background": "#1b2838",
+          "primaryOffset": "#ff2957",
+          "textOffset": "#818a91",
+          "backgroundOffset": "#252526"
+      }
+  }
+]
