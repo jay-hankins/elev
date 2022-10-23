@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/themes.css' | url }}">
     <script>
-        // if there's a theme id in localstorage, use it on the <html>
-        localStorage.getItem('theme') &&
-        document.documentElement.setAttribute('data-theme', localStorage.getItem('theme'))
+      // if there's a theme id in localstorage, use it on the <html>
+      localStorage.getItem('theme') && document
+        .documentElement
+        .setAttribute('data-theme', localStorage.getItem('theme'))
     </script>
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
@@ -46,22 +47,43 @@
       {{ content | safe }}
     </main>
 
-    <footer class="page-footer">
-      <p class="">&copy; 2014 —
-      <span>
-          <script>
-            document.write(new Date().getFullYear())
-          </script>
-          <noscript>{% current_year %}</noscript>
-        </span>Jay Hankins.</p>
+    <footer class="footer h-card" role="contentinfo">
+      <div class="footer__inner container">
+        <p class="footer__item">
+          <strong>&copy; 2014—<span>
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              <noscript>{% current_year %}</noscript>
+            </span>
+          </strong><br>
+          <a class="p-name u-url u-uid" rel="me" href="https://jhankins.dev">Jay Hankins</a>
+        </p>
+        <p class="footer__item">
+          <strong>Social</strong><br>
+          <a href="https://twitter.com/jay_hankins/" title="Twitter" rel="me">Twitter</a> / <a href="https://github.com/jay-hankins/" title="Github" rel="me">Github</a>
+        </p>
+        <p class="footer__item">
+          <strong>Legal</strong><br>
+          <a href="/privacy/">Privacy Policy</a>
+        </p>
+        <p class="footer__item">
+          <strong>Links</strong><br>
+          <a href="/blogroll/">Blogroll</a><br>
+          <a href="/feed.xml" class="footer__icon" title="RSS Feed">
+            <span class="sr-only">RSS Feed</span>
+            <svg class="icon icon--feed" role="img" aria-hidden="true" width="24" height="24">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/icons.sprite.svg#icon-feed"></use>
+            </svg>
+          </a>
+        </p>
+
+      </div>
       <a href="https://xn--sr8hvo.ws/%F0%9F%8C%91%F0%9F%98%95%F0%9F%8E%93/previous">←</a>
   An IndieWeb Webring 🕸💍
   <a href="https://xn--sr8hvo.ws/%F0%9F%8C%91%F0%9F%98%95%F0%9F%8E%93/next">→</a>
-      <p class="">Except where otherwise noted, content on this site is licensed under a&nbsp;<a href="http://creativecommons.org/licenses/by-sa/4.0/" class="Footer__Ffa-sc-1gi1jxo-2 heeoCV">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
-      <p class="">This site doesn't track you— I don't collect analytics. Want to share how you found my site, or give me feedback? <br>
-        <a class="" href="/contact"> I'd love to hear from you.</a>
-      </p>
     </footer>
+
   </div>
 
   <!-- Current page: {{ page.url | url }} -->
