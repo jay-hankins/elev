@@ -17,7 +17,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Hind", -apple-system, BlinkMacSystemFont, avenir next, avenir,
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
   color: var(--color-text);
   background-color: var(--color-bg);
