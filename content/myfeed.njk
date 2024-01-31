@@ -1,0 +1,17 @@
+---
+layout: layouts/home.njk
+permalink: /myfeed/
+eleventyNavigation:
+  key: My Feed
+  order: 6
+templateClass: templ-feed
+---
+
+{% for post in collections.myfeed %}
+  <div class="feed-post">
+    {{ post.content | safe }}
+    <span class="feed-date">
+      <a href="{{post.url}}">{{ post.date | readableDateTime }}</a>
+    </span>
+  </div>
+{% endfor %}

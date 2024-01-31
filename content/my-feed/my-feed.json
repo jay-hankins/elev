@@ -1,0 +1,6 @@
+{
+  "tags": [
+    "myfeed"
+  ],
+  "layout": "layouts/my-feed.njk"
+}
