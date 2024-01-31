@@ -7,8 +7,8 @@ eleventyNavigation:
 
 {% set maxPosts = collections.posts.length | min(4) %}
 
-<h2>jhankins.dev</h2>
-<p>Welcome to one of the smallest sites on the world-wide web.</p>
+<h1>jhankins.dev</h1>
+<p>The humble website of a chaotic software engineer, site reliability professional, and overall cool guy.</p>
 <br><br>
 
 <h2>Latest {% if maxPosts == 1 %}Post{% else %}Posts{% endif %}
@@ -18,6 +18,6 @@ eleventyNavigation:
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/blog/' | url }}">the archive</a>.</p>
+<p>See all posts on the <a href="{{ '/blog/' | url }}">blog</a>.</p>
 
 <link href="https://github.com/jay-hankins" rel="me">

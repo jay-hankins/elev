@@ -8,4 +8,4 @@ eleventyNavigation:
 
 # Contact
 
-The best way to contact me is via Twitter <a href="https://twitter.com/jay_hankins">@jay_hankins</a>!
+The best way to contact me is via email: `jay` -at- this domain.
