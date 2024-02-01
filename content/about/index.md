@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<img src="./jay.png" class="mepic" width="128px"/>
+<img src="jay.png" class="mepic" width="128px"/>
 
 Hi, my name is Jay, and I know just enough about computers to be dangerous.
 
@@ -18,4 +18,4 @@ Previously, I’ve worked at companies like Cisco and RSA Security, developing w
 
 I love the web. I had dialup as a kid, but I realized I could build a website in Microsoft Word that loaded very fast (and looked marvelous in Internet Explorer)! Then later on, I installed Firefox, got interested in CSS 2 and WYSIWYG editors (Nvu/KompoZer), and I very specifically remember making a website for my school with [this theme](https://web.archive.org/web/20120317130325/https://www.oswd.org/design/preview/id/3560/). In high school, I made some Wordpress themes for local businesses. And now, I use things like React and Parcel and VS Code. The web is pure, unadulterated techno-fun.
 
-I studied Computer Science at Purdue University. I love to help people learn new things; at Purdue, I lectured CS 193: Tools, where my team and I taught 500 computer science freshmen the basics of Unix-like terminals, text editors, and git.
+I studied Computer Science at Purdue University. I love to help people learn new things; at Purdue, I lectured [CS 190: Tools](https://github.com/Purdue-CSUSB/CS-190-F2016), where my team and I taught 500 computer science freshmen the basics of Unix-like terminals, text editors, and git.
