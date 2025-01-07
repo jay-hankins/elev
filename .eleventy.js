@@ -90,7 +90,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("content/favicon.png");
   eleventyConfig.addPassthroughCopy("content/css");
   eleventyConfig.addPassthroughCopy("content/sw.js");
-  eleventyConfig.addPassthroughCopy({"node_modules/@zachleat/snow-fall/snow-fall.js": "snow-fall.js"});
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

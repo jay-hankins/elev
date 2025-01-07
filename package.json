@@ -37,7 +37,6 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "@zachleat/snow-fall": "^1.0.2",
     "jsbarcode": "^3.11.3",
     "lodash": "^4.17.21",
     "markdown-it-footnote": "^3.0.2"
